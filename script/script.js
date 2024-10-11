@@ -6,6 +6,7 @@ document.getElementById('calculate').addEventListener('click',function(){
     var bmi = weight/height;
 
    
+    
 
     if(bmi < 18.5){
         message.textContent = "Underwait: " + bmi.toFixed(2);
@@ -17,6 +18,17 @@ document.getElementById('calculate').addEventListener('click',function(){
         message.textContent = "Obesity: " + bmi.toFixed(2);
     }
 
-
+    if (weight.trim() === ''){
+        message.textContent = "weight can not  be Empty";
+    }else if(weight < 0){
+        message.textContent = "weight can not  be Negative";
+    } 
+   
+    if (height.trim() === ''){
+        message.textContent = "height can not  be Empty";
+    }else if(height < 0){
+        message.textContent = "height can not  be Negative";
+    } 
+   
 
 })
