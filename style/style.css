@@ -14,7 +14,7 @@ h1{
     font-size: 3rem;
 
     animation-name: h1animate;
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-timing-function: ease-out;
     /* animation-iteration-count: infinite; */
 
