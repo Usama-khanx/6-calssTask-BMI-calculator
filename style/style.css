@@ -61,7 +61,7 @@ div input:focus{
     transition: .3s all;
 }
 #calculate:hover{
-    background-color: rgb(57, 54, 255);
+    background-color: rgb(67, 67, 234);
     transform: scale(1.03);
 }
 #message{

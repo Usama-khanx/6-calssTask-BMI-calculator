@@ -3,7 +3,8 @@ document.getElementById('calculate').addEventListener('click',function(){
     var weight = document.getElementById('weight').value;
    
     var message = document.getElementById('message');
-    var bmi = weight/height;
+    // var bmi = weight/height;
+    var bmi = weight / (height * height)
 
    
     
